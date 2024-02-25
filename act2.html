@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Declares character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets viewport for responsive design -->
+    <title>Aaron Raven A. Aramil - Resume</title>
+    <style>
+        body {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /* Sets default font family */
+            font-size: large;
+            margin: 0;      /* Resets default margin */
+            padding: 2%;    /* Resets default padding */
+            background-color: lightgray; /* Sets background color */
+        }
+        header {
+            background-color: transparent;
+            text-align: center; /* Centers text within header */
+            color:slategray; /* Sets text color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text shadow */
+        }
+        .container {
+            width: 1100px;
+            margin: 200px auto; /* Set top and bottom margin to 200px, and left and right margin to auto */
+            background-image:url(images/black\ modern\ corporate\ Resume.png);
+            background-repeat: no-repeat; /* Prevent repeating */
+            background-size: cover; /* Cover the entire container */
+            background-position: center; /* Center the image */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hobbies {
+            margin-left: 50px;
+        }
+        a {
+            color: inherit;
+            text-decoration:underline;
+        }
+        h1 {
+            margin-top: 20px; /* Adds margin to top of h1 */
+            color: whitesmoke;
+            background-color: #6c757d; /* Sets background color for h1 */
+            padding: 10px; /* Adds padding to h1 */
+            text-align: center; /* Centers text within h1 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text shadow */
+        }
+        ul {
+            list-style-type: none; /* Removes default list style */
+            padding: 0; /* Resets default padding */
+            margin-left: 50px; /* Adds margin to left of list */
+        }
+        li {
+            margin-bottom: 10px; /* Adds margin below each list item */
+        }
+        .wrapper h2 {
+            text-align: center;
+            color: whitesmoke;
+            font-size: 35px;
+            background-color: #6c757d; /* Sets background color for h1 */
+            margin-top: 195px;
+            padding: 10px; /* Adds padding to h1 */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds text shadow */
+        }
+        .wrapper img {
+            margin-left: 50px;
+             width: 300px; /* Sets width of the image */
+             height: 300px; /* Sets height of the image */
+             display: inline-block; /* Makes the image behave like an inline block element */
+              border: 5px solid #6c757d; /* Adds border around image */
+              border-width: 30px;
+             border-radius: 50%; /* Makes image circular */
+             float: left;
+        }
+        .wrapper:hover img{
+            transform: scale(1.1);
+        }
+        hr {
+            border: none; /* Removes default border */
+            border-top: 1px solid #6c757d; /* Adds top border */
+            margin-bottom: 20px; /* Adds margin below hr */
+        }
+        .projects {
+            text-align: center; /* Centers text within .projects */
+        }
+        .project-container {
+            display:flex; /* Uses flexbox layout */
+            justify-content: center; /* Centers content horizontally */
+            margin-bottom: 20px; /* Adds margin below .project-container */
+        }
+        .project-img {
+            margin-right: 1em; /* Adds margin to right of each image */
+            padding: 5px; /* Adds padding around each image */
+            height: 300px; /* Sets height of images */
+            width: 500px; /* Sets width of images */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds box shadow */
+            border: 5px solid #6c757d; /* Adds border around images */
+            border-radius: 10%; /* Adds circular border*/
+        }
+        .projvid {
+            margin-top: 10px; /* Adds margin above .projvid */
+            display: flex; /* Uses flexbox layout */
+            justify-content: center; /* Centers content horizontally */
+            flex-wrap: wrap; /* Allows content to wrap */
+            align-items: center; /* Centers items vertically */
+            flex-direction: column; /* Arranges items in column */
+        }
+        .projvid p {
+            margin-right: 10px; /* Adds margin to right of paragraphs */
+        }
+        video {
+            width: 300px; /* Sets width of video */
+            max-width: 600px; /* Sets maximum width of video */
+            height: 500px; /* Sets height of video */
+        }
+        footer{
+            text-align: center;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h3 style="font-size: 50px;">My Personal Web Page</h3> <!-- Header displaying page title -->
+        </header>
+        <div class="wrapper">
+            <img title="This is me LOL" src="images/ID.jpg">
+        </div>
+        <div class="wrapper">
+            <h2>Personal Information</h2> <!-- Displays personal information section header -->
+        </div>
+        <p style="margin-top: 50px;">Hello, I am <b>Aaron Raven A. Aramil</b>, a 19-year-old second-year student pursuing a Bachelor of Science in Information Technology at Laguna State Polytechnic University. Currently residing in Alaminos, Laguna, one of my aspirations is to become a UX Designer.</p> <!-- Displays personal information -->
+        <br>
+        <div class="hobbies">
+            <p style="margin-left: 50px">Here are some of my <b>interests</b> and <b>hobby:</b></p> <!-- Displays interests and hobbies -->
+            <ul>
+                <li>Listening to Music</li> <!-- Displays interest -->
+                <li>Reading</li> <!-- Displays interest -->
+                <li>Gaming</li> <!-- Displays interest -->
+                <li>Utilizing free time for sleeping</li> <!-- Displays interest -->
+                <li>Learning new programming languages</li> <!-- Displays interest -->
+            </ul>
+        </div>
+        <center><h1>Education</h1></center> <!-- Displays education section header -->
+        <p style="margin-left: 50px">Here is my Educational background:</p> <!-- Displays educational background -->
+        <ul>
+            <hr>
+            <li><b>Elementary</b> : San Benito Elementary School (2010-2016)</li> <!-- Displays elementary school information -->
+            <hr>
+            <li><b>Highschool</b> : Buenaventura E. Fandialan Memorial Integrated National Highschool (2016-2020)</li> <!-- Displays high school information -->
+            <hr>
+            <li><b>Senior Highschool</b> : TVL HE-Tourism strand at Buenaventura E. Fandialan Memorial Integrated National Highschool (2020-2022)</li> <!-- Displays senior high school information -->
+            <hr>
+            <li><b>College</b> : Currently attending Laguna State Polytechnic University (2022-Present)</li> <!-- Displays college information -->
+            <hr>
+        </ul>
+        <center><h1>Skills</h1></center> <!-- Displays skills section header -->
+        <p style="margin-left: 50px">Here are some of my skills:</p> <!-- Displays skills -->
+        <ul>
+            <li>Proficient in the basics and fundamentals of <b>HTML/CSS, Java, C#,</b> and <b>MySQL.</b></li> <!-- Displays programming skills -->
+            <li>Excellent time management skills.</li> <!-- Displays time management skill -->
+            <li>Strong analytical abilities.</li> <!-- Displays analytical skill -->
+            <li>Experienced in Social Media Management.</li> <!-- Displays social media management skill -->
+            <li>Skilled in Technical Writing.</li> <!-- Displays technical writing skill -->
+        </ul>
+        <center><h1>Projects</h1></center> <!-- Displays projects section header -->
+        <div class="projects">
+            <p>Designed <b>AeroBlast</b> (A spaceship shooting game)</p> <!-- Displays project name -->
+            <div class="project-container"> <!-- Div for project images -->
+                <img src="images/AB1.jpg" alt="AeroBlast 1" class="project-img"> <!-- Displays first project image -->
+                <img src="images/AB2.jpg" alt="AeroBlast 2" class="project-img"> <!-- Displays second project image -->
+            </div>
+        </div>
+        <div class="projvid"> <!-- Div for project video -->
+            <p>One of the creators of <b>QuizGo!</b> Prototype</p> <!-- Displays project name -->
+            <video src="videos/Creating Quiz Clip.mp4" autoplay controls muted> Your browser does not support the video tag.</video> <!-- Displays project video -->
+        </div>
+        <center><h1>Contact Information</h1></center> <!-- Displays contact information section header -->
+        <ul>
+            <li><b>University Gmail</b> : <a href="mailto:ravenaaronaramil@gmail.com"><b>0322-1826@lspu.edu.ph</b></a></li> <!-- Displays school email -->
+            <li><b>Personal Gmail</b> : <a href="mailto:ravenaaronaramil@gmail.com"><b>ravenaaronaramil@gmail.com</b></a></li> <!-- Displays personal email -->
+            <li><b>Mobile Number</b> : 09996291059</li>
+            <li><b>LinkedIn</b> :<a href="https://www.linkedin.com/in/aaron-raven-aramil-9854852b6/" target="_blank"><b> Aaron Raven Aramil</b></li></a> <!-- Displays mobile number -->
+            <li><b>Facebook</b> :<a href="https://www.facebook.com/aaronraven.austriaaramil" target="_blank"> <b>Aaron Raven A. Aramil</b></li></a> <!-- Displays Facebook profile link -->
+        </ul>
+        <br>
+    </div>
+        <footer> <p>&copy; 2024 Aaron Raven A. Aramil. All rights reserved.</p></footer>
+</body>
+</html>
